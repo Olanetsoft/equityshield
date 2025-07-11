@@ -61,12 +61,12 @@ Generate cryptographic proofs in seconds that anyone can verify without seeing y
 EquityShield leverages Midnight Network's unique privacy architecture:
 
 ```
-┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│   Private Data  │────▶│   ZK Circuit    │────▶│  Public Proof   │
-│  (Local Only)   │     │  (Computation)  │     │   (Verified)    │
-└─────────────────┘     └─────────────────┘     └─────────────────┘
- Never                 Generates              Blockchain
- Transmitted              Proof                 Verified
+    ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+    │   Private Data  │────▶│   ZK Circuit    │────▶│  Public Proof   │
+    │  (Local Only)   │     │  (Computation)  │     │   (Verified)    │
+    └─────────────────┘     └─────────────────┘     └─────────────────┘
+    Never                 Generates              Blockchain
+    Transmitted              Proof                 Verified
 ```
 
 ### Key Components:
@@ -220,13 +220,8 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 This project is licensed under the MIT License.
 
-## 🙏 Acknowledgments
 
-- **Midnight Network** - For pioneering privacy-preserving blockchain technology
-- **IOG** - For supporting innovation in blockchain privacy
-- **Zero-Knowledge Community** - For advancing the field of cryptographic proofs
-
-## 📞 Support
+## 📞 Support & Documentation
 
 - **Documentation**: [Midnight Developer Docs](https://docs.midnight.network)
 - **Discord**: [Join our community](https://discord.gg/midnight)
