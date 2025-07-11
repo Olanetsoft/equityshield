@@ -18,7 +18,7 @@ export interface ProofResult {
   txHash: string;
   timestamp: string;
   claimType: string;
-  publicInputs: any;
+  publicInputs: unknown;
 }
 
 export type ProofType =

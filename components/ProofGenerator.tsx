@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Zap, Loader2 } from "lucide-react";
-import { EquityGrant, ProofType } from "@/lib/mock/types";
+import { EquityGrant, ProofType, ProofResult } from "@/lib/mock/types";
 import { EquityService } from "@/lib/mock/equityService";
 
 interface ProofGeneratorProps {
   grant: EquityGrant;
-  onProofGenerated: (proof: any) => void;
+  onProofGenerated: (proof: ProofResult) => void;
 }
 
 export default function ProofGenerator({
