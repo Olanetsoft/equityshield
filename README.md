@@ -1,5 +1,6 @@
 # EquityShield
 
+
 <div align="center">
   <img src="https://img.shields.io/badge/Built%20for-Midnight%20Network-purple?style=for-the-badge" alt="Midnight Network">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
@@ -10,6 +11,8 @@
 <div align="center">
   <h3>Privacy-First Equity Verification on Midnight Network</h3>
   <p>Prove your equity value without revealing sensitive cap table data using zero-knowledge proofs</p>
+  
+This project is built on the Midnight Network.
 </div>
 
 ---
